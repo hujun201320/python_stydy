@@ -1,5 +1,3 @@
-from email import message
-from urllib import response
 from server_socket import ServerSoket
 from socket_wrapper import SocketWrapper
 from threading import Thread

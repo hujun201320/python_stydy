@@ -27,6 +27,6 @@ class ResponseProtocol(object):
         return:返回给用户的消息字符串
         '''
 
-        return DELIMITER.join([REQUEST_CHAT,nickname,messages])
+        return DELIMITER.join([RESPONSE_CHAT,nickname,messages])
 
     
